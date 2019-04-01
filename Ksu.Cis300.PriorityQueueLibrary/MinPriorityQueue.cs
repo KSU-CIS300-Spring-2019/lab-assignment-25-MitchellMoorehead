@@ -80,9 +80,9 @@ namespace Ksu.Cis300.PriorityQueueLibrary
             }
         }
         /// <summary>
-        /// 
+        /// Removes the minimum element
         /// </summary>
-        /// <returns></returns>
+        /// <returns> the value of the minimum element </returns>
         public TValue RemoveMinimumPriority()
         {
             if (Count != 0)

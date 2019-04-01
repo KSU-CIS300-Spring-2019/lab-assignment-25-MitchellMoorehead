@@ -34,7 +34,11 @@ namespace Ksu.Cis300.PriorityQueueLibrary
         /// Keeps track of the length of the null path
         /// </summary>
         private int _nullPathLength;
-
+        /// <summary>
+        /// Gets the length of the null path
+        /// </summary>
+        /// <param name="t"> the tree </param>
+        /// <returns> the length </returns>
         public static int NullPathLength(LeftistTree<T> t)
         {
             if (t == null)
